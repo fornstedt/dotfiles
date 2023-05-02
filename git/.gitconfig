@@ -1,0 +1,19 @@
+[user]
+	name = Eric Fornstedt
+	email = eric.fornstedt@gmail.com
+[core]
+  autocrlf = input
+  safecrlf = warn
+  editor = nano
+[push]
+  default = simple
+[pretty]
+  onelinedate = format:%C(auto)%h%x20%d%x20%Creset%s%x20%C(bold blue)(%cr)%x20%Cgreen<%an>%Creset
+[alias]
+  st = status
+  co = checkout
+  ci = commit
+  l = log --pretty=onelinedate --graph -n30
+  ll = log --pretty=onelinedate --graph -n30 --all
+  logg = log --oneline --graph --decorate -n30
+  loggg = log --oneline --graph --decorate -n30 --all
